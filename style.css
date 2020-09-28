@@ -8,7 +8,7 @@ body{
     padding: 0px;
     height: 100%;
     width: 100%;
-    font-family: Arial;
+    font-family: 'monteserrat';
 }
 /* .loader-wrapper {
     width: 100%;
@@ -136,8 +136,8 @@ nav a:hover::before{
     text-align: left;
 }
 #section1 .col-md h3{
-    font-size: 4.5vw;
-    color: black;
+    font-size: 4vw;
+    color: rgb(36, 33, 33);
     font-weight: bold;
     animation: fadeIn 10s;
     text-align: left;
@@ -407,7 +407,7 @@ nav a:hover::before{
     top: 75px;
     width: 0;
     z-index: 1;
-    right: 51px;
+    right: 7.5%;
     border: medium solid #487549;
     border-width: 50px 0 50px 50px;
     border-color: transparent transparent transparent #487549;
@@ -422,7 +422,7 @@ nav a:hover::before{
     position: absolute;
     top: 75px;
     width: 0;
-    left: 50px;
+    left: 7.5%;
     border: medium solid #487549;
     border-width: 50px 50px 50px 0;
     border-color: transparent #487549 transparent transparent;
@@ -710,14 +710,14 @@ h1{
 .socials ul li{
     display: inline-block;
     text-decoration: none;
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
     background-color: #999999;
     margin: auto 3vw;
     box-shadow: 3px 3px 10px #aeaeae,
                 -4px -4px 10px white;
-    line-height: 5.5vw;
-    font-size: 3vw;
+    line-height: 4.5vw;
+    font-size: 2.5vw;
     color: #333;
     cursor: pointer;
 }
