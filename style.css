@@ -92,8 +92,8 @@ nav a:hover::before{
 #wave{
     background-color: whitesmoke;
     position: absolute;
-    top: 10%;
-    height: 100px;
+    top: 650px;
+    height: 15%;
     width: 100%;
     transform: skewY(3deg);
     z-index: 30;
