@@ -1,4 +1,3 @@
-
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -105,12 +104,10 @@ nav a:hover::before{
 .background{
     z-index: 10;
     display: inline-block;
-    text-decoration: underline;
-    font-family: 'Garamond';
-    opacity: .6;
-    height: 700px;
+    height: 100%;
     width: 100%;
     max-width: 100%;
+    animation: fadeIn 5s;
 }
 
 @keyframes fadeIn{
@@ -121,34 +118,6 @@ nav a:hover::before{
         opacity: 1;
     }
 }
-#section1 .col-md{
-    z-index: 50;
-    margin-left: 17%;
-    top: 30%;
-    font-family: 'monteserrat';
-    position: absolute;
-}
-#section1 .col-md h2{
-    font-size: 5vw;
-    color: black;
-    font-weight: bold;
-    animation: fadeIn 10s;
-    text-align: left;
-}
-#section1 .col-md h3{
-    font-size: 3.5vw;
-    color: black;
-    font-weight: bold;
-    animation: fadeIn 10s;
-    text-align: left;
-}
-#section1 .col-md p{
-    font-size: 1.8vw;
-    color: black;
-    font-weight: bold;
-    animation: fadeIn 10s;
-    text-align: left;
-}
 
 #logo{
     height: 50px;
@@ -156,7 +125,7 @@ nav a:hover::before{
 }
 
 #section2{
-    height: 120%;
+    margin-top: -1.5%;
     background: #E0E0E2;
     display: inline-block;
     width: 100%;
@@ -222,11 +191,10 @@ nav a:hover::before{
 }
 .profile_info{
     width: 90%;
-    padding: 3%;
+    padding-top: 1%;
     margin-bottom: 2%;
 }
 .profile_info .col-sm-4{
-    top: 5%;
     width: 25%;
 }
 .intro{
@@ -335,7 +303,6 @@ nav a:hover::before{
     font-family: 'Garamond';
 }
 #containerSec3{
-    margin-top: -150px;
     display: inline-block;
     justify-content: center;
     width: 100%;
