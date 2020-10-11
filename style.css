@@ -368,7 +368,7 @@ nav a:hover::before{
     position: absolute;
     top: 75px;
     width: 0;
-    left: 3.8vw;
+    left: 3.85vw;
     border: medium solid #416788;
     border-width: 50px 50px 50px 0;
     border-color: transparent #416788 transparent transparent;
