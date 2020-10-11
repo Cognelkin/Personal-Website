@@ -169,7 +169,7 @@ nav a:hover::before{
     z-index: 9;
     color: black;
     font-family: "monteserrat";
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     width: 80%;
     margin-left: 10%;
     text-align: center;
@@ -181,7 +181,7 @@ nav a:hover::before{
     width: 80%;
     margin-left: 10%;
     font-family: "monteserrat";
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-align: center;
 }
 .my_picture{
