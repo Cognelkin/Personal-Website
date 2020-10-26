@@ -467,7 +467,7 @@ nav a:hover::before{
 }
 #slider{
     margin: 0 auto;
-    width: 75%;
+    width: 50%;
     text-align: center;
 }
 #slider input[type=radio]{
